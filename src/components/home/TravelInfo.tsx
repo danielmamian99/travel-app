@@ -7,7 +7,7 @@ export const TravelInfo = () => {
         <hr className="border-y-[1.5px]" />
       </div>
       <article className="flex justify-center mt-6 text-md md:text-2xl lg:text-3xl font-light text-center">
-        <p className="font-nova">
+        <p>
           Viaje por los Cerros de Mavicure
           <br />y sus alrededores
         </p>

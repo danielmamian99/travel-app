@@ -1,7 +1,7 @@
 export const Benefits = () => {
   return (
     <section className=" flex w-full justify-center gap-x-4">
-      <div className="grid grid-rows-2 w-2/6 md:w-1/6">
+      <div className="grid grid-rows-2 w-2/6 md:w-1/6 gap-y-2">
         <div className="flex flex-row gap-x-2 md:gap-x-4">
           <div className="flex justify-center items-center w-1/4">
             <img
@@ -27,7 +27,7 @@ export const Benefits = () => {
           </article>
         </div>
       </div>
-      <div className="grid grid-rows-2 w-2/6 md:w-1/6">
+      <div className="grid grid-rows-2 w-2/6 md:w-1/6 gap-y-2">
         <div className="flex flex-row gap-x-2 md:gap-x-4">
           <div className="flex justify-center items-center w-1/4">
             <img
