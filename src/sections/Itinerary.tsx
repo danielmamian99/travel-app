@@ -2,9 +2,9 @@ import { Crossing, Presentation } from '../components/itinerary'
 
 export const Itinerary = () => {
   return (
-    <div>
+    <section>
       <Presentation/>    
       <Crossing/>
-    </div>
+    </section>
   )
 }

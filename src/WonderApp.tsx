@@ -1,5 +1,5 @@
 import { Footer } from './components/Footer'
-import { Home, Itinerary } from './pages'
+import { Home, Itinerary } from './sections'
 
 function WonderApp() {
 

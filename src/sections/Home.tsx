@@ -1,7 +1,6 @@
 import { Benefits, TravelInfo } from "../components/home";
 import { WonderButton } from "../components/generals";
 
-// bg-gradient-to-b from-[#706f6f] via-transparent to-black
 export const Home = () => {
   return (
     <section className="text-white">
@@ -15,12 +14,12 @@ export const Home = () => {
               alt="Wonder Travel"
             ></img>
           </div>
-          <div className="w-3/4 md:w-11/12 flex justify-center items-end text-4xl md:text-7xl lg:text-8xl font-bold text-center">
-            <p>
+          <article className="w-3/4 md:w-11/12 flex justify-center items-end text-4xl md:text-7xl lg:text-8xl font-bold text-center">
+            <p className="font-abril">
               Guainía y Cerros <br />
               de Mavicure
             </p>
-          </div>
+          </article>
         </div>
       </div>
       <div className="flex flex-col justify-center items-center bg-black">
