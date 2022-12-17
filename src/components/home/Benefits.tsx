@@ -10,7 +10,7 @@ export const Benefits = () => {
               alt="Wonder Travel Experiencias"
             ></img>
           </figure>
-          <article className="w-3/4 self-center text-xs md:text-base">
+          <article className="w-3/4 self-center text-xs md:text-base lg:text-lg">
             <p>Experiencias cautivantes</p>
           </article>
         </div>
@@ -22,7 +22,7 @@ export const Benefits = () => {
               alt="Wonder Travel Alojamiento"
             ></img>
           </figure>
-          <article className="w-3/4 self-center text-xs md:text-base">
+          <article className="w-3/4 self-center text-xs md:text-base lg:text-lg">
             <p>Alojamientos únicos</p>
           </article>
         </div>
@@ -36,7 +36,7 @@ export const Benefits = () => {
               alt="Wonder Travel comidas"
             ></img>
           </figure>
-          <article className="w-3/4 self-center text-xs md:text-base">
+          <article className="w-3/4 self-center text-xs md:text-base lg:text-lg">
             <p>Todas las comidas incluidas</p>
           </article>
         </div>
@@ -48,7 +48,7 @@ export const Benefits = () => {
               alt="Wonder Travel Transporte"
             ></img>
           </figure>
-          <article className="w-3/4 self-center text-xs md:text-base">
+          <article className="w-3/4 self-center text-xs md:text-base lg:text-lg">
             <p>Transporte terrestre y fluvial en el Guainía</p>
           </article>
         </div>
