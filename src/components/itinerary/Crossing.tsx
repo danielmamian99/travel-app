@@ -4,8 +4,8 @@ import { useFetch } from "../../hooks/useFetch.js";
 export const Crossing = () => {
   const itinerarys = useFetch();
   return (
-    <section>
-      <div className="flex flex-row w-full justify-between px-8 my-4">
+    <section className="flex flex-col items-center px-8">
+      <div className="flex flex-row w-full justify-between md:w-1/2 my-4">
         <div>
           <p className="font-bold text-xl">La travesía:</p>
         </div>
@@ -20,7 +20,7 @@ export const Crossing = () => {
           ></img>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center relative w-full px-8 gap-y-4">
+      <div className="flex flex-col justify-center items-center relative w-full gap-y-4">
         <div className="z-0 absolute border border-[#FF6549] border-dashed h-[96%] top-16 w-px"></div>
 
         {Object.values(itinerarys).map((itinerary, index) => (
@@ -32,7 +32,7 @@ export const Crossing = () => {
         ))}
       </div>
       <article className="flex justify-center mt-2">
-        <p className="w-2/6 text-center">Regreso a ciudad de origen</p>
+        <p className="w-4/6 text-center">Regreso a ciudad de origen</p>
       </article>
     </section>
   );
