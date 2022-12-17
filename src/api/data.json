@@ -86,5 +86,74 @@
         "labels": ["Alojamiento y cena en cabañas indígenas"]
       }
     ]
+  },
+  {
+    "day": 3,
+    "activitys": [
+      {
+        "type": "location",
+        "icon": "location",
+        "name": "Comunidad la Ceiba",
+        "labels": [
+          "Conocerás sus iniciativas productivas sostenibles como la Ruta de la Miel"
+        ]
+      },
+      {
+        "type": "location",
+        "icon": "location",
+        "name": "Actividad Verde",
+        "subtitle": "Ruta de la Miel",
+        "labels": [
+          "Conoce la iniciativa de producción de miel orgánica que ayuda a reforestar la Orinoquía"
+        ]
+      },
+      {
+        "type": "location",
+        "icon": "location",
+        "name": "El gran Río Orinoco y la Estrella Fluvial",
+        "labels": [
+          "Visita a la Estrella Fluvial donde convergen los Ríos Guaviare, Atabapo e Inírida originando el gran Río Orinoco"
+        ]
+      },
+      {
+        "type": "lunch",
+        "icon": "lunch",
+        "labels": ["Almuerzo en Reserva Natural"]
+      },
+      {
+        "type": "location",
+        "icon": "location",
+        "name": "¡A nadar!",
+        "subtitle": "Baño en las aguas del Río Atabapo en la piedra de Maviso",
+        "labels": ["Río Atabapo"]
+      },
+      {
+        "type": "location",
+        "icon": "location",
+        "name": "Dosel/ Canopy",
+        "subtitle": "Atravesando el nororiente amazónico por las copas de los árboles.",
+        "labels": ["Reserva Natural Morú"]
+      },
+      {
+        "type": "accommodation",
+        "icon": "bed",
+        "labels": ["Alojamiento y cena en Reserva Natural Morú"]
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "activitys": [
+      {
+        "type": "transport",
+        "icon": "ship",
+        "labels": ["Desplazamiento a Puerto Inírida y aeropuerto"]
+      },
+      {
+        "type": "end",
+        "icon": "airplane",
+        "labels": []
+      }
+    ]
   }
 ]

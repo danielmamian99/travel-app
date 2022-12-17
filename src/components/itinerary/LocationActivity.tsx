@@ -8,7 +8,7 @@ export const LocationActivity = ({
   labels,
 }: Activity) => {
   return (
-    <section className="flex rounded-lg shadow-[0px_0px_10px_1px_rgba(0,0,0,0.1)] z-10 px-4 py-1">
+    <section className="flex rounded-lg shadow-[0px_0px_10px_1px_rgba(0,0,0,0.1)] z-20 px-4 py-1">
       <section className="grid grid-cols-[8rem_2rem_8rem] items-center justify-items-center gap-x-2 pt-0.5">
         <article className="flex flex-col">
           <p className="text-xl font-bold">{name}</p>

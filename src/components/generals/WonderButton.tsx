@@ -2,10 +2,6 @@ import "./wonderButton.css";
 
 interface WonderButtonProps {
   /**
-   * Is this the principal call to action on the page?
-   */
-  primary?: boolean;
-  /**
    * What background color to use
    */
   backgroundColor?: string;
@@ -24,20 +20,22 @@ interface WonderButtonProps {
   /**
    * Image object with url and alt
    */
-  image?: {
-    /**
-     * Image url
-     */
-    url: string;
-    /**
-     * Image alt
-     */
-    alt: string;
-  };
+  /**
+   * What url image should use?
+   */
+  urlImage?: string;
+  /**
+   * What alt image should use?
+   */
+  altImage?: string;
   /**
    * How large should the image be?
    */
   imageSize?: "small" | "medium" | "large";
+  /**
+   * Color personalizado de la fuente
+   */
+  fontColor?: string;
   /**
    * Optional click handler
    */
@@ -49,34 +47,31 @@ interface WonderButtonProps {
  */
 export const WonderButton = ({
   neon = false,
-  primary = false,
   size = "medium",
   backgroundColor,
   label,
-  image,
+  urlImage,
+  altImage,
   imageSize,
+  fontColor="white",
   ...props
 }: WonderButtonProps) => {
-  const mode = primary
-    ? "storybook-button--primary"
-    : "storybook-button--secondary";
   const brightness = neon ? "storybook-button--neon" : "";
-  const imageWidth = imageSize ? `img--${imageSize}` : ''
+  const imageWidth = imageSize ? `img--${imageSize}` : "";
   return (
     <button
       type="button"
       className={[
         "storybook-button",
         `storybook-button--${size}`,
-        mode,
         brightness,
       ].join(" ")}
-      style={{ backgroundColor }}
+      style={{ backgroundColor, color:fontColor }}
       {...props}
     >
       <div className="button__itern-container">
-        {image && (
-          <img className={imageWidth} src={image.url} alt={image.alt} />
+        {urlImage && (
+          <img className={imageWidth} src={urlImage} alt={altImage} />
         )}
         {label}
       </div>

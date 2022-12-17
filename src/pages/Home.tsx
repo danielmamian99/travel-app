@@ -4,7 +4,7 @@ import { WonderButton } from "../components/generals";
 // bg-gradient-to-b from-[#706f6f] via-transparent to-black
 export const Home = () => {
   return (
-    <div className="text-white">
+    <section className="text-white">
       <div className="bg-[url('/images/home/fondo-.png')] text-white h-full w-full bg-no-repeat bg-cover flex flex-col justify-center">
         <div className="bg-gradient-to-b from-[#706f6f] via-transparent to-black w-screen h-screen flex flex-col justify-between items-center">
           <div></div>
@@ -12,6 +12,7 @@ export const Home = () => {
             <img
               className="min-w-full"
               src="/images/home/wonderTitulo.svg"
+              alt="Wonder Travel"
             ></img>
           </div>
           <div className="w-3/4 md:w-11/12 flex justify-center items-end text-4xl md:text-7xl lg:text-8xl font-bold text-center">
@@ -24,39 +25,36 @@ export const Home = () => {
       </div>
       <div className="flex flex-col justify-center items-center bg-black">
         <TravelInfo />
-        <div className="flex items-center mt-4">
+        <div className="flex items-center mt-6 gap-x-2">
           <div>
-            <img src="/images/home/mapa.svg"></img>
+            <img src="/images/home/mapa.svg" alt="Wonder Travel Orinoquia"></img>
           </div>
-          <div>
-            <p>Orinoquía (Guainía, Colombia)</p>
-          </div>
+          <article>
+            <p className="text-sm">Orinoquía (Guainía, Colombia)</p>
+          </article>
         </div>
         <div className="mt-4 w-full">
           <Benefits />
         </div>
-        <div className="flex flex-col justify-center items-center w-full gap-y-2">
-          <div>
+        <div className="flex flex-col justify-center items-center w-full mt-8 gap-y-2">
+          <article>
             <p>Whatsapp:</p>
-          </div>
+          </article>
           <WonderButton
             backgroundColor="#FF805A"
-            image={{
-              alt: "Whatsapp contact information wonder travel",
-              url: "/images/generals/whatsappIcons/whatsapp1.png",
-            }}
+            altImage="Whatsapp contact information wonder travel"
+            urlImage="/images/generals/whatsappIcons/whatsapp1.png"
             imageSize="small"
             label="Reservar / información"
             neon = {true}
             onClick={() => {}}
-            primary
             size="small"
           />
         </div>
-        <div className="my-4">
-          <img src="/images/home/arrow.svg"></img>
+        <div className="mt-8 mb-4">
+          <img src="/images/home/arrow.svg" alt="Que es Wonder Travel"></img>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

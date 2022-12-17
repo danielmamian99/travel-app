@@ -5,18 +5,18 @@ export const Footer = () => {
         <hr />
         <div className="flex justify-center gap-x-2 mt-8">
           <div className="border-r-2 border-[#FF694C]">
-            <img className="" src="/images/footer/tituloWonder.svg"></img>
+            <img className="" src="/images/footer/tituloWonder.svg" alt="Wonder Travel"></img>
           </div>
           <div className="flex justify-center items-center">
             <p>#ViajaAlMomento</p>
           </div>
         </div>
         <div className="mt-8">
-          <img src="/images/footer/reservas/Group 470@3x.png"></img>
+          <img src="/images/footer/reservas/Group 470@3x.png" alt="Wonder Travel reservas"></img>
         </div>
         <div className="flex flex-col justify-center m-4">
           <p className="underline text-center">Miembros de:</p>
-          <img src="/images/footer/acotur/ACOTUR LOGO AI-01@3x.png"></img>
+          <img src="/images/footer/acotur/ACOTUR LOGO AI-01@3x.png" alt="acotur"></img>
         </div>
       </div>
       <div className="text-white bg-[#272A2E] py-2">
