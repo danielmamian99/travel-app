@@ -32,9 +32,9 @@ export const Circle = ({
   return (
     <div className={`circle cicle--${cicleSize}`} style={{ backgroundColor }}>
       {urlImage && (
-        <div className={`cicle__img cicle__img--${imageSize}`}>
+        <figure className={`cicle__img cicle__img--${imageSize}`}>
           <img src={`${urlImage}`} alt={`${altImage}`}></img>
-        </div>
+        </figure>
       )}
     </div>
   );
