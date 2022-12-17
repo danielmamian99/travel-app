@@ -1,12 +1,12 @@
 export const Presentation = () => {
   return (
     <div className="h-full w-full p-8">
-      <div className="text-center font-bold text-sm">
+      <article className="text-center font-bold text-sm">
         <p>
           Wonder Travel es la plataforma que conecta viajeros con anfitriones en
           lugares mágicos de Colombia
         </p>
-      </div>
+      </article>
       <div className="flex md:justify-center mt-4">
         <div className="flex">
           <div>

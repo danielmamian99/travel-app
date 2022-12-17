@@ -75,6 +75,7 @@
         "type": "location",
         "icon": "location",
         "name": "Ictiofauna Nocturna",
+        "subtitle": "Travesía en canoa por el Caño Pajarito para conocer los peces de la región",
         "labels": [
           "def. Ictiofauna: Conjunto de peces de una zona acuática acotada"
         ]

@@ -1,17 +1,20 @@
 import { Activity } from "../../interfaces";
 import { Circle } from "../generals";
 
-export const ActivityOfDay = ({
-  type,
+export const LocationActivity = ({
   name,
+  subtitle,
   icon,
   labels,
-  subtitle,
 }: Activity) => {
   return (
-    <>
+    <section className="flex rounded-lg shadow-[0px_0px_10px_1px_rgba(0,0,0,0.1)] z-10 px-4 py-1">
       <section className="grid grid-cols-[8rem_2rem_8rem] items-center justify-items-center gap-x-2 pt-0.5">
-        <div>{type === "start" && "Inicio"}</div>
+        <article className="flex flex-col">
+          <p className="text-xl font-bold">{name}</p>
+          <br/>
+          <p className="text-sm">{subtitle}</p>
+        </article>
         <div className="flex justify-center items-center relative h-full">
           {icon ? (
             <Circle
@@ -23,16 +26,15 @@ export const ActivityOfDay = ({
             <Circle backgroundColor="#FF805A" />
           )}
         </div>
-
-        <div>
+        <article>
           {labels.map((label, index) => (
             <article className="grid justify-center align-middle" key={index}>
               <p className="text-sm">{label}</p>
               {labels.length > 1 && <br />}
             </article>
           ))}
-        </div>
+        </article>
       </section>
-    </>
+    </section>
   );
 };
