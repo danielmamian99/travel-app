@@ -5,7 +5,7 @@ export const Benefits = () => {
         <div className="flex flex-row gap-x-2 md:gap-x-4">
           <figure className="flex justify-center items-center w-1/4">
             <img
-              className="h-1/4 md:h-2/4 lg:h-3/5"
+              className="h-2/5 md:h-2/4 lg:h-3/5"
               src="/images/home/brujula.svg"
               alt="Wonder Travel Experiencias"
             ></img>
@@ -17,7 +17,7 @@ export const Benefits = () => {
         <div className="flex flex-row gap-x-2 md:gap-x-4">
           <figure className="flex justify-center items-center w-1/4">
             <img
-              className="h-1/4 md:h-2/4 lg:h-3/5"
+              className="h-2/5 md:h-2/4 lg:h-3/5"
               src="/images/home/alojamiento.svg"
               alt="Wonder Travel Alojamiento"
             ></img>
@@ -31,7 +31,7 @@ export const Benefits = () => {
         <div className="flex flex-row gap-x-2 md:gap-x-4">
           <figure className="flex justify-center items-center w-1/4">
             <img
-              className="h-1/4 md:h-2/4 lg:h-3/5"
+              className="h-2/5 md:h-2/4 lg:h-3/5"
               src="/images/home/comida.svg"
               alt="Wonder Travel comidas"
             ></img>
@@ -43,7 +43,7 @@ export const Benefits = () => {
         <div className="flex flex-row gap-x-2 md:gap-x-4">
           <figure className="flex justify-center items-center w-1/4">
             <img
-              className="h-1/4 md:h-2/4 lg:h-3/5"
+              className="h-2/5 md:h-2/4 lg:h-3/5"
               src="/images/home/transporte.svg"
               alt="Wonder Travel Transporte"
             ></img>

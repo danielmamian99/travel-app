@@ -6,7 +6,7 @@ export const CrossingDay = ({ day, activitys }: Itinerary) => {
   return (
     <>
       <div className="flex justify-end self-end w-full">
-        <div className="border-b-2 w-1/4 flex justify-end">{`Day ${day}`}</div>
+        <div className="border-[#FF6549] border-t w-1/4 text-[#FF6549] flex justify-end">{`Day ${day}`}</div>
       </div>
       {activitys.map((activity, index) => (
         <div key={index} className="flex flex-col items-center leading-3">

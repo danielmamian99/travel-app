@@ -4,10 +4,8 @@ import { useFetch } from "../../hooks/useFetch.js";
 export const Crossing = () => {
   const itinerarys = useFetch();
   return (
-    <div className="flex flex-col justify-center items-center relative h-full w-full p-8 gap-y-4">
-      <div className="z-0 absolute border border-[#FF6549] border-dashed h-[93%] top-32 w-px"></div>
-
-      <div className="flex flex-row w-full justify-between">
+    <section>
+      <div className="flex flex-row w-full justify-between px-8 my-4">
         <div>
           <p className="font-bold text-xl">La travesía:</p>
         </div>
@@ -15,16 +13,27 @@ export const Crossing = () => {
           <article className="flex items-center min-w-max">
             <p className="text-sm">Wonder Travel</p>
           </article>
-          <img className="w-1/6" src="/images/generals/wonderLogo.svg" alt="Wonder Travel"></img>
+          <img
+            className="w-1/6"
+            src="/images/generals/wonderLogo.svg"
+            alt="Wonder Travel"
+          ></img>
         </div>
       </div>
-      {Object.values(itinerarys).map((itinerary, index) => (
-        <CrossingDay
-          key={index}
-          day={itinerary.day}
-          activitys={itinerary.activitys}
-        />
-      ))}
-    </div>
+      <div className="flex flex-col justify-center items-center relative w-full px-8 gap-y-4">
+        <div className="z-0 absolute border border-[#FF6549] border-dashed h-[96%] top-16 w-px"></div>
+
+        {Object.values(itinerarys).map((itinerary, index) => (
+          <CrossingDay
+            key={index}
+            day={itinerary.day}
+            activitys={itinerary.activitys}
+          />
+        ))}
+      </div>
+      <article className="flex justify-center mt-2">
+        <p className="w-2/6 text-center">Regreso a ciudad de origen</p>
+      </article>
+    </section>
   );
 };

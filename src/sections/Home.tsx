@@ -22,7 +22,7 @@ export const Home = () => {
           </article>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center bg-black">
+      <div className="flex flex-col justify-center items-center bg-black mt-[-1px]">
         <TravelInfo />
         <div className="flex items-center mt-6 gap-x-2">
           <figure>
@@ -42,7 +42,7 @@ export const Home = () => {
           <WonderButton
             backgroundColor="#FF805A"
             altImage="Whatsapp contact information wonder travel"
-            urlImage="/images/generals/whatsappIcons/whatsapp1.png"
+            urlImage="/images/generals/whatsappIcons/whatsapp3.png"
             imageSize="small"
             label="Reservar / información"
             neon = {true}

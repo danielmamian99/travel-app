@@ -102,7 +102,7 @@ export const Presentation = () => {
         </div>
       </div>
       <div className="flex justify-center w-full mt-10">
-        <figure className="flex justify-center w-12">
+        <figure className="flex justify-center w-12 md:w-16 lg:w-24">
           <img
             src="/images/itinerary/meta/adventure.png"
             srcSet="/images/itinerary/meta/adventure.png 300w, /images/itinerary/meta/adventure2.png 768w, /images/itinerary/meta/adventure3.png 1280w"
