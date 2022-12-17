@@ -8,7 +8,7 @@ export const LocationActivity = ({
   labels,
 }: Activity) => {
   return (
-    <section className="flex rounded-lg shadow-[0px_0px_10px_1px_rgba(0,0,0,0.1)] z-20 px-4 py-1">
+    <section className="flex rounded-lg shadow-[0px_0px_10px_1px_rgba(0,0,0,0.1)] bg-[#FDFCF7] z-20 px-4 py-1">
       <section className="grid grid-cols-[8rem_2rem_8rem] items-center justify-items-center gap-x-2 pt-0.5">
         <article className="flex flex-col">
           <p className="text-xl font-bold">{name}</p>
@@ -26,14 +26,14 @@ export const LocationActivity = ({
             <Circle backgroundColor="#FF805A" />
           )}
         </div>
-        <article>
+        <div className="flex w-full flex-col items-start pl-2">
           {labels.map((label, index) => (
             <article className="grid justify-center align-middle" key={index}>
               <p className="text-sm">{label}</p>
               {labels.length > 1 && <br />}
             </article>
           ))}
-        </article>
+        </div>
       </section>
     </section>
   );

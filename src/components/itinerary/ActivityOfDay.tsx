@@ -24,7 +24,7 @@ export const ActivityOfDay = ({
           )}
         </div>
 
-        <div>
+        <div className="flex w-full flex-col items-start pl-2">
           {labels.map((label, index) => (
             <article className="grid justify-center align-middle" key={index}>
               <p className="text-sm">{label}</p>
