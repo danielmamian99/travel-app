@@ -1,5 +1,5 @@
-import { Activity } from "../../interfaces";
-import { Circle } from "../generals";
+import { Activity } from "../../../interfaces";
+import { Circle } from "../../generals";
 
 export const LocationActivity = ({
   name,

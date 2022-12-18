@@ -1,6 +1,5 @@
 import { Itinerary } from "../../interfaces";
-import { ActivityOfDay } from "./ActivityOfDay";
-import { LocationActivity } from "./LocationActivity";
+import { ActivityOfDay, LocationActivity } from "./crossing day";
 
 export const CrossingDay = ({ day, activitys }: Itinerary) => {
   return (

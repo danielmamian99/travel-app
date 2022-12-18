@@ -27,11 +27,11 @@ export const Footer = () => {
             </figure>
           </div>
 
-          <div className="flex flex-col justify-center w-1/2">
+          <div className="flex flex-col justify-center items-center w-1/2">
             <p className="underline text-center text-large md:text-2xl lg:text4xl">
               Miembros de:
             </p>
-            <figure className="flex justify-center">
+            <figure className="flex justify-center lg:w-10/12">
               <img
                 src="/images/footer/acotur/acotur.png"
                 srcSet="/images/footer/acotur/acotur.png 300w, /images/footer/acotur/acotur2.png 768w, /images/footer/acotur/acotur3.png 1280w"
