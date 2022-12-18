@@ -33,6 +33,8 @@ yarn dev
 
 yarn test
 
+Se desplegará una UI que le ayudará a visualizar los test
+
 ![Image text](public/images/readme/test/vitestUI.png)
 
 #### Como ver el coverage:
