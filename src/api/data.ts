@@ -1,0 +1,189 @@
+export const data = [
+    {
+      day: 1,
+      activitys: [
+        {
+          type: "start",
+          labels: [
+            "Ciudad de Origen"
+          ]
+        },
+        {
+          type: "transport",
+          icon: "airplane",
+          labels: [
+            "Vuelo (1.5h) (No incluido, lo podemos organizar por ti)"
+          ]
+        },
+        {
+          type: "place",
+          labels: [
+            "Llegada a Pto. Inírida"
+          ]
+        },
+        {
+          type: "location",
+          icon: "location",
+          name: "Los Cerros Sagrados",
+          subtitle: "Travesía en lancha (2h) desde Puerto Inírida",
+          labels: [
+            "Visita a los Cerros de Mavicure, Pajarito y Mono",
+            "Visita a las comunidades del Remanso y Venado"
+          ]
+        },
+        {
+          type: "lunch",
+          icon: "lunch",
+          labels: [
+            "Almuerzo en Comunidad Indigena"
+          ]
+        },
+        {
+          type: "location",
+          icon: "location",
+          name: "Cerro Diablo",
+          subtitle: "Travesía en lancha (2h) desde Puerto Inírida",
+          labels: [
+            "Caminata y escalada al atardecer"
+          ]
+        },
+        {
+          type: "acommodation",
+          icon: "bed",
+          labels: [
+            "Alojamiento y cena en cabañas indígenas"
+          ]
+        }
+      ]
+    },
+    {
+      day: 2,
+      activitys: [
+        {
+          type: "location",
+          icon: "location",
+          name: "Ascenso al Cerro Mavicure",
+          labels: [
+            "Para deleitarse con los paisajes del escudo guayanés"
+          ]
+        },
+        {
+          type: "location",
+          icon: "location",
+          name: "Caño San Joaquín",
+          labels: [
+            "El “oasis del Guainía”, te estremecerá con sus aguas color naranja"
+          ]
+        },
+        {
+          type: "lunch",
+          icon: "lunch",
+          labels: [
+            "Almuerzo en Comunidad Indigena"
+          ]
+        },
+        {
+          type: "transport",
+          icon: "ship",
+          labels: [
+            "Desplazamiento a la comunidad La Ceiba"
+          ]
+        },
+        {
+          type: "location",
+          icon: "location",
+          name: "Ictiofauna Nocturna",
+          subtitle: "Travesía en canoa por el Caño Pajarito para conocer los peces de la región",
+          labels: [
+            "def. Ictiofauna: Conjunto de peces de una zona acuática acotada"
+          ]
+        },
+        {
+          type: "accommodation",
+          icon: "bed",
+          labels: [
+            "Alojamiento y cena en cabañas indígenas"
+          ]
+        }
+      ]
+    },
+    {
+      day: 3,
+      activitys: [
+        {
+          type: "location",
+          icon: "location",
+          name: "Comunidad la Ceiba",
+          labels: [
+            "Conocerás sus iniciativas productivas sostenibles como la Ruta de la Miel"
+          ]
+        },
+        {
+          type: "location",
+          icon: "location",
+          name: "Actividad Verde",
+          subtitle: "Ruta de la Miel",
+          labels: [
+            "Conoce la iniciativa de producción de miel orgánica que ayuda a reforestar la Orinoquía"
+          ]
+        },
+        {
+          type: "location",
+          icon: "location",
+          name: "El gran Río Orinoco y la Estrella Fluvial",
+          labels: [
+            "Visita a la Estrella Fluvial donde convergen los Ríos Guaviare, Atabapo e Inírida originando el gran Río Orinoco"
+          ]
+        },
+        {
+          type: "lunch",
+          icon: "lunch",
+          labels: [
+            "Almuerzo en Reserva Natural"
+          ]
+        },
+        {
+          type: "location",
+          icon: "location",
+          name: "¡A nadar!",
+          subtitle: "Baño en las aguas del Río Atabapo en la piedra de Maviso",
+          labels: [
+            "Río Atabapo"
+          ]
+        },
+        {
+          type: "location",
+          icon: "location",
+          name: "Dosel/ Canopy",
+          subtitle: "Atravesando el nororiente amazónico por las copas de los árboles.",
+          labels: [
+            "Reserva Natural Morú"
+          ]
+        },
+        {
+          type: "accommodation",
+          icon: "bed",
+          labels: [
+            "Alojamiento y cena en Reserva Natural Morú"
+          ]
+        }
+      ]
+    },
+    {
+      day: 4,
+      activitys: [
+        {
+          type: "transport",
+          icon: "ship",
+          labels: [
+            "Desplazamiento a Puerto Inírida y aeropuerto"
+          ]
+        },
+        {
+          type: "end",
+          icon: "airplane",
+          labels: []
+        }
+      ]
+    }
+  ]
