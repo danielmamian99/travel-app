@@ -33,6 +33,7 @@ yarn dev
 
 yarn test
 
+https://github.com/danielmamian99/travel-app/tree/main/public/images/readme/test/vitestUI.png
 
 #### Como ver el coverage:
 
