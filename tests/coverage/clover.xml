@@ -1,138 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1671379848927" clover="3.2.0">
-  <project timestamp="1671379848927" name="All files">
-    <metrics statements="123" coveredstatements="123" conditionals="9" coveredconditionals="8" methods="4" coveredmethods="4" elements="136" coveredelements="135" complexity="0" loc="123" ncloc="123" packages="1" files="3" classes="3"/>
-    <file name="Circle.tsx" path="/Users/macbookairveevart/Documents/trabajos/wonder app/src/components/generals/Circle.tsx">
-      <metrics statements="41" coveredstatements="41" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="18" count="1" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="25" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="26" count="5" type="stmt"/>
-      <line num="27" count="5" type="stmt"/>
-      <line num="28" count="5" type="stmt"/>
-      <line num="29" count="5" type="stmt"/>
-      <line num="30" count="5" type="stmt"/>
-      <line num="31" count="5" type="stmt"/>
-      <line num="32" count="5" type="stmt"/>
-      <line num="33" count="5" type="stmt"/>
-      <line num="34" count="5" type="cond" truecount="1" falsecount="0"/>
-      <line num="35" count="3" type="stmt"/>
-      <line num="36" count="3" type="stmt"/>
-      <line num="37" count="5" type="stmt"/>
-      <line num="38" count="5" type="stmt"/>
-      <line num="39" count="5" type="stmt"/>
-      <line num="40" count="5" type="stmt"/>
-      <line num="41" count="5" type="cond" truecount="1" falsecount="0"/>
-    </file>
-    <file name="WonderButton.tsx" path="/Users/macbookairveevart/Documents/trabajos/wonder app/src/components/generals/WonderButton.tsx">
-      <metrics statements="80" coveredstatements="80" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="18" count="1" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="26" count="1" type="stmt"/>
-      <line num="27" count="1" type="stmt"/>
-      <line num="28" count="1" type="stmt"/>
-      <line num="29" count="1" type="stmt"/>
-      <line num="30" count="1" type="stmt"/>
-      <line num="31" count="1" type="stmt"/>
-      <line num="32" count="1" type="stmt"/>
-      <line num="33" count="1" type="stmt"/>
-      <line num="34" count="1" type="stmt"/>
-      <line num="35" count="1" type="stmt"/>
-      <line num="36" count="1" type="stmt"/>
-      <line num="37" count="1" type="stmt"/>
-      <line num="38" count="1" type="stmt"/>
-      <line num="39" count="1" type="stmt"/>
-      <line num="40" count="1" type="stmt"/>
-      <line num="41" count="1" type="stmt"/>
-      <line num="42" count="1" type="stmt"/>
-      <line num="43" count="1" type="stmt"/>
-      <line num="44" count="1" type="stmt"/>
-      <line num="45" count="1" type="stmt"/>
-      <line num="46" count="1" type="stmt"/>
-      <line num="47" count="1" type="stmt"/>
-      <line num="48" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="49" count="7" type="stmt"/>
-      <line num="50" count="7" type="stmt"/>
-      <line num="51" count="7" type="stmt"/>
-      <line num="52" count="7" type="stmt"/>
-      <line num="53" count="7" type="stmt"/>
-      <line num="54" count="7" type="stmt"/>
-      <line num="55" count="7" type="stmt"/>
-      <line num="56" count="7" type="stmt"/>
-      <line num="57" count="7" type="stmt"/>
-      <line num="58" count="7" type="stmt"/>
-      <line num="59" count="7" type="cond" truecount="0" falsecount="1"/>
-      <line num="60" count="7" type="cond" truecount="2" falsecount="0"/>
-      <line num="61" count="7" type="stmt"/>
-      <line num="62" count="7" type="stmt"/>
-      <line num="63" count="7" type="stmt"/>
-      <line num="64" count="7" type="stmt"/>
-      <line num="65" count="7" type="stmt"/>
-      <line num="66" count="7" type="stmt"/>
-      <line num="67" count="7" type="stmt"/>
-      <line num="68" count="7" type="stmt"/>
-      <line num="69" count="7" type="stmt"/>
-      <line num="70" count="7" type="stmt"/>
-      <line num="71" count="7" type="stmt"/>
-      <line num="72" count="7" type="stmt"/>
-      <line num="73" count="7" type="cond" truecount="1" falsecount="0"/>
-      <line num="74" count="3" type="stmt"/>
-      <line num="75" count="7" type="stmt"/>
-      <line num="76" count="7" type="stmt"/>
-      <line num="77" count="7" type="stmt"/>
-      <line num="78" count="7" type="stmt"/>
-      <line num="79" count="7" type="stmt"/>
-      <line num="80" count="7" type="cond" truecount="1" falsecount="0"/>
-    </file>
-    <file name="index.ts" path="/Users/macbookairveevart/Documents/trabajos/wonder app/src/components/generals/index.ts">
+<coverage generated="1671399550487" clover="3.2.0">
+  <project timestamp="1671399550487" name="All files">
+    <metrics statements="125" coveredstatements="125" conditionals="9" coveredconditionals="8" methods="4" coveredmethods="4" elements="138" coveredelements="137" complexity="0" loc="125" ncloc="125" packages="3" files="5" classes="5"/>
+    <package name="generals">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-    </file>
+      <file name="index.ts" path="/Users/macbookairveevart/Documents/trabajos/wonder app/src/components/generals/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="generals.button">
+      <metrics statements="81" coveredstatements="81" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <file name="WonderButton.tsx" path="/Users/macbookairveevart/Documents/trabajos/wonder app/src/components/generals/button/WonderButton.tsx">
+        <metrics statements="80" coveredstatements="80" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="49" count="7" type="stmt"/>
+        <line num="50" count="7" type="stmt"/>
+        <line num="51" count="7" type="stmt"/>
+        <line num="52" count="7" type="stmt"/>
+        <line num="53" count="7" type="stmt"/>
+        <line num="54" count="7" type="stmt"/>
+        <line num="55" count="7" type="stmt"/>
+        <line num="56" count="7" type="stmt"/>
+        <line num="57" count="7" type="stmt"/>
+        <line num="58" count="7" type="stmt"/>
+        <line num="59" count="7" type="cond" truecount="0" falsecount="1"/>
+        <line num="60" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="7" type="stmt"/>
+        <line num="62" count="7" type="stmt"/>
+        <line num="63" count="7" type="stmt"/>
+        <line num="64" count="7" type="stmt"/>
+        <line num="65" count="7" type="stmt"/>
+        <line num="66" count="7" type="stmt"/>
+        <line num="67" count="7" type="stmt"/>
+        <line num="68" count="7" type="stmt"/>
+        <line num="69" count="7" type="stmt"/>
+        <line num="70" count="7" type="stmt"/>
+        <line num="71" count="7" type="stmt"/>
+        <line num="72" count="7" type="stmt"/>
+        <line num="73" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="75" count="7" type="stmt"/>
+        <line num="76" count="7" type="stmt"/>
+        <line num="77" count="7" type="stmt"/>
+        <line num="78" count="7" type="stmt"/>
+        <line num="79" count="7" type="stmt"/>
+        <line num="80" count="7" type="cond" truecount="1" falsecount="0"/>
+      </file>
+      <file name="index.ts" path="/Users/macbookairveevart/Documents/trabajos/wonder app/src/components/generals/button/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="generals.circle">
+      <metrics statements="42" coveredstatements="42" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="Circle.tsx" path="/Users/macbookairveevart/Documents/trabajos/wonder app/src/components/generals/circle/Circle.tsx">
+        <metrics statements="41" coveredstatements="41" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="34" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="39" count="5" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="41" count="5" type="cond" truecount="1" falsecount="0"/>
+      </file>
+      <file name="index.ts" path="/Users/macbookairveevart/Documents/trabajos/wonder app/src/components/generals/circle/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

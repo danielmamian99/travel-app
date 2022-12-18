@@ -45,7 +45,7 @@ yarn coverage
 
 -Open index.html
 
-
+![Image text](public/images/readme/test/coverage.png)
 
 ## Trabajo sobre componentes
 
