@@ -15,10 +15,10 @@ export const Home = () => {
             ></img>
           </figure>
           <article className="w-3/4 md:w-11/12 flex justify-center items-end text-4xl md:text-5xl lg:text-6xl font-bold text-center">
-            <p className="font-abril">
+            <h2 className="font-abril">
               Guainía y Cerros <br />
               de Mavicure
-            </p>
+            </h2>
           </article>
         </div>
       </div>
@@ -26,10 +26,15 @@ export const Home = () => {
         <TravelInfo />
         <div className="flex items-center mt-6 gap-x-2">
           <figure>
-            <img src="/images/home/mapa.svg" alt="Wonder Travel Orinoquia"></img>
+            <img
+              src="/images/home/mapa.svg"
+              alt="Wonder Travel Orinoquia"
+            ></img>
           </figure>
           <article>
-            <p className="text-sm md:text-base lg:text-lg">Orinoquía (Guainía, Colombia)</p>
+            <h4 className="text-sm md:text-base lg:text-lg">
+              Orinoquía (Guainía, Colombia)
+            </h4>
           </article>
         </div>
         <div className="mt-4 w-full">
@@ -45,7 +50,7 @@ export const Home = () => {
             urlImage="/images/generals/whatsappIcons/whatsapp3.png"
             imageSize="small"
             label="Reservar / información"
-            neon = {true}
+            neon={true}
             onClick={() => {}}
             size="small"
           />
