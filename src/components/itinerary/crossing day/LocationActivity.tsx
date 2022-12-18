@@ -12,7 +12,7 @@ export const LocationActivity = ({
       <section className="grid grid-cols-[8rem_2rem_8rem] items-center justify-items-center gap-x-2 pt-0.5">
         <article className="flex flex-col">
           <p className="text-xl font-bold">{name}</p>
-          <br/>
+          <br />
           <p className="text-sm">{subtitle}</p>
         </article>
         <div className="flex justify-center items-center relative h-full">
