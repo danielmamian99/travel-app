@@ -50,7 +50,7 @@ export const Footer = () => {
           />
         </figure>
         <div className="flex flex-col justify-center m-4 md:hidden">
-          <p className="underline text-center text-large md:text-2xl lg:text4xl">
+          <p className="underline text-center text-large">
             Miembros de:
           </p>
           <figure className="flex justify-center">
