@@ -49,7 +49,17 @@ yarn coverage
 
 ## Trabajo sobre componentes reutilizables
 
-Para trabajar sobre componentes reutilizables se usaron story books
+Para trabajar sobre componentes reutilizables se usaron story books, los cuales estan implementdos con:
+
+-Module Bundler: CRA (create react app)
+
+-Superset javascript: Typescript
+
+-Framework Javascript: ReactJs
+
+-Package Manager: Yarn
+
+-Manejador de versiones: Chromatic y Github
 
 #### Link : https://636fd55712827b1c13e9bde4-zdtaabqcsu.chromatic.com/?path=/story/wonder-button--image
 
