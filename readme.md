@@ -47,7 +47,7 @@ yarn coverage
 
 ![Image text](public/images/readme/test/coverage.png)
 
-## Trabajo sobre componentes
+## Trabajo sobre componentes reutilizables
 
 Para trabajar sobre componentes reutilizables se usaron story books
 
