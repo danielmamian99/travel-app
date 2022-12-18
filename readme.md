@@ -52,3 +52,22 @@ yarn coverage
 Para trabajar sobre componentes reutilizables se usaron story books
 
 ### Link : https://636fd55712827b1c13e9bde4-ixfbwejlpc.chromatic.com/?path=/story/wonder-circle--wonder-image
+
+Los componentes utilizados en este proyecto estan en la seccion WONDER, para personalizarlos usar la sección canvas y cambiar las propiedades de control, por ejemplo:
+
+Para crear este botón: 
+![Image text](public/images/readme/storybooks/reservaWonder.png)
+
+Ve a la sección wonder, componente Button y cambia las propiedades de control por:
+
+- urlImage: https://wondertravel.co/wp-content/themes/Wonder/assets/img/wpp-icon.svg
+
+- label: Reserva ya!
+
+- backgroundColor: #FF805A
+
+- neon: true
+
+- fontColor: #ffffff
+
+![Image text](public/images/readme/storybooks/storybookButton.png)
