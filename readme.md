@@ -79,7 +79,7 @@ Ve a la sección wonder, componente Button y cambia las propiedades de control p
 
 ![Image text](public/images/readme/storybooks/storybookButton.png)
 
-#### Repositorio storbook: https://github.com/danielmamian99/Storybooks-Components
+#### Repositorio storybook: https://github.com/danielmamian99/Storybooks-Components
 
 ## PWA
 
