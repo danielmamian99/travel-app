@@ -1,6 +1,6 @@
 import "./wonderButton.css";
 
-interface WonderButtonProps {
+export interface WonderButtonProps {
   /**
    * What background color to use
    */
