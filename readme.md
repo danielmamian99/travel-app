@@ -37,7 +37,7 @@ Se desplegará una UI que le ayudará a visualizar los test
 
 ![Image text](public/images/readme/test/vitestUI.png)
 
-#### Como ver el coverage:
+#### Como ver el coverage del testing:
 
 yarn coverage
 
@@ -49,5 +49,6 @@ yarn coverage
 
 ## Trabajo sobre componentes
 
-Para trabajar sobre componentes reutilizables se usaron story books, 
-https://636fd55712827b1c13e9bde4-ixfbwejlpc.chromatic.com/?path=/story/wonder-circle--wonder-image
+Para trabajar sobre componentes reutilizables se usaron story books
+
+### Link : https://636fd55712827b1c13e9bde4-ixfbwejlpc.chromatic.com/?path=/story/wonder-circle--wonder-image
