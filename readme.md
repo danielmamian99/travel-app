@@ -33,7 +33,7 @@ yarn dev
 
 yarn test
 
-![image vitestUI](https://github.com/danielmamian99/travel-app/tree/main/public/images/readme/test/vitestUI.png)
+![Image text](https://github.com/danielmamian99/travel-app/tree/main/public/images/readme/test/vitestUI.png)
 
 #### Como ver el coverage:
 
