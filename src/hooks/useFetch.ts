@@ -4,12 +4,13 @@ import { Itinerary } from '../interfaces';
 
 export const useFetch = ():Itinerary[] | {} => {
     const [itinerary, setItinerary] = useState({})
-    useEffect(() => {
-        fetch("/src/api/data.json")
-        .then((response) => response.json())
-        .then((data) => setItinerary(data))
-        .catch(() => setItinerary(data)) //Because in production we cannot consume local api
-    }, [])
+    setItinerary(data) //Because in production we cannot consume local api
+    // useEffect(() => {
+    //     fetch("/src/api/data.json")
+    //     .then((response) => response.json())
+    //     .then((data) => setItinerary(data))
+    //     .catch(() => setItinerary(data)) 
+    // }, [])
     
     return itinerary;
 }
