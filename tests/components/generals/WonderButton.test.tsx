@@ -62,7 +62,7 @@ describe("WonderButton without image test", () => {
     );
   });
   test("WonderButton should have correctly neon effect", () => {
-    const neonClass = WonderButtonArgs.neon ? "storybook-button--neon" : "";
+    const neonClass = WonderButtonArgs.neon ? "wonder-button--neon" : "";
     expect(screen.queryByRole("button")?.classList.toString()).contain(
       neonClass
     );
