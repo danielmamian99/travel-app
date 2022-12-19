@@ -1,6 +1,6 @@
 import "./wonderButton.css";
 
-interface WonderButtonProps {
+export interface WonderButtonProps {
   /**
    * custom font color
    */
