@@ -24,23 +24,23 @@ El diseño esa pensando para mobile, sin embargo es responsive.
 -Package Manager: Yarn
 
 ### Como ejecutar la app
-
+```
 yarn install
 
 yarn dev
-
+```
 ### Como ejecutar los test
-
+```
 yarn test
-
+```
 Se desplegará una UI que le ayudará a visualizar los test
 
 ![Image text](public/images/readme/test/vitestUI.png)
 
 ### Como ver el coverage del testing:
-
+```
 yarn coverage
-
+```
 -Go to: tests/coverage
 
 -Open index.html
