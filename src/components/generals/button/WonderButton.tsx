@@ -1,25 +1,30 @@
 import "./wonderButton.css";
 
-export interface WonderButtonProps {
+interface WonderButtonProps {
+  /**
+   * custom font color
+   */
+  fontColor?: string;
   /**
    * What background color to use
    */
   backgroundColor?: string;
   /**
-   * How large should the button be?
-   */
-  size?: "small" | "medium" | "large";
-  /**
    * Button contents
    */
   label: string;
+  /**
+   * round edge?
+   */
+  border?: boolean;
   /**
    * Button neon effect
    */
   neon: boolean;
   /**
-   * Image object with url and alt
+   * How large should the button be?
    */
+  size?: "small" | "medium" | "large";
   /**
    * What url image should use?
    */
@@ -33,10 +38,6 @@ export interface WonderButtonProps {
    */
   imageSize?: "small" | "medium" | "large";
   /**
-   * Color personalizado de la fuente
-   */
-  fontColor?: string;
-  /**
    * Optional click handler
    */
   onClick?: () => void;
@@ -47,26 +48,31 @@ export interface WonderButtonProps {
  */
 export const WonderButton = ({
   neon = false,
+  border = false,
   size = "medium",
   backgroundColor,
   label,
   urlImage,
   altImage,
   imageSize,
-  fontColor="white",
+  fontColor = "white",
   ...props
 }: WonderButtonProps) => {
-  const brightness = neon ? "storybook-button--neon" : "";
-  const imageWidth = imageSize ? `img--${imageSize}` : "";
+  const brightness = neon ? "wonder-button--neon" : "";
+  const imageWidth = imageSize
+    ? `button__itern-container__img--${imageSize}`
+    : "";
+  const borderButton = border ? `wonder-button--border` : "";
   return (
     <button
       type="button"
       className={[
-        "storybook-button",
-        `storybook-button--${size}`,
+        "wonder-button",
+        `wonder-button--${size}`,
         brightness,
+        borderButton,
       ].join(" ")}
-      style={{ backgroundColor, color:fontColor }}
+      style={{ backgroundColor, color: fontColor }}
       {...props}
     >
       <div className="button__itern-container">

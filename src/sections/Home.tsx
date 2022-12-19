@@ -52,6 +52,7 @@ export const Home = () => {
             label="Reservar / información"
             neon={true}
             onClick={() => {}}
+            border={true}
             size="small"
           />
         </div>
