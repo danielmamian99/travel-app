@@ -89,6 +89,10 @@ Ve a la sección wonder, componente Button y cambia las propiedades de control p
 
 ![Image text](public/images/readme/storybooks/storybookButton.png)
 
+Ir a la sección docs, dar click en show code, copiar el codigo del componente y pegarlo en el proyecto para generar la vista deseada
+
+![Image text](public/images/readme/storybooks/storybookCode.png)
+
 #### Repositorio storybook: https://github.com/danielmamian99/Storybooks-Components
 
 ## PWA
