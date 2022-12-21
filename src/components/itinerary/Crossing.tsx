@@ -13,11 +13,14 @@ export const Crossing = () => {
           <article className="flex items-center min-w-max">
             <p>Wonder Travel</p>
           </article>
-          <img
-            className="w-1/6"
-            src="/images/generals/wonderLogo.svg"
-            alt="Wonder Travel"
-          ></img>
+          <figure className="grid place-items-center">            
+            <img
+              src="/images/generals/logos/logo.png"
+              srcSet="/images/generals/logos/logo.png 380w, /images/generals/logos/logo2.png 768w, /images/generals/logos/logo3.png 1280w"
+              sizes="(max-width: 380px) 380px, (max-width: 768px) 768px, 1280px"
+              alt="Wonder Travel"
+            ></img>
+          </figure>
         </div>
       </div>
       <div className="flex flex-col justify-center items-center relative w-full gap-y-4">
