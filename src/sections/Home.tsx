@@ -23,7 +23,7 @@ export const Home = () => {
       <div className="flex flex-col justify-center items-center bg-black mt-[-1px]">
         <TravelInfo />
         <div className="flex items-center mt-6 gap-x-2 relative">
-          <div className="absolute left-9">
+          <div className="absolute left-[46px] top-7">
             <figure>
               <img
                 // width={15}
@@ -56,7 +56,7 @@ export const Home = () => {
           <article>
             <p>Whatsapp:</p>
           </article>
-          <div className="text-[18px]">
+          <div className="text-[20px]">
             <WonderButton
               backgroundColor="#FF805A"
               altImage="Whatsapp contact information wonder travel"
