@@ -12,17 +12,20 @@ export const TravelInfo = () => {
           <br />y sus alrededores
         </h3>
       </article>
-      <div className="flex mt-8 p-1 md:p-4 border-2 rounded w-3/6 md:w-5/12 lg:w-1/4 items-center">
+      <div className="flex mt-8 px-2 py-2 border-2 rounded w-56 items-center">
         <figure className="mx-1 w-1/6 flex justify-center">
           <img
-            className="w-3/6"
-            src="/images/generals/wonderLogo.svg"
+            // width={18}
+            // height={18}
+            src="/images/generals/logos/logo.png"
+            srcSet="/images/generals/logos/logo.png 300w, /images/generals/logos/logo2.png 768w, /images/generals/logos/logo3.png 1280w"
+            sizes="(max-width: 380px) 380px, (max-width: 768px) 768px, 1280px"
             alt="Wonder Travel"
           ></img>
         </figure>
-        <div className="text-sm md:text-2xl font-bold w-5/6 pl-2">
+        <article className="text-[15px] font-bold w-5/6 pl-2">
           <p>4 días, 3 noches*</p>
-        </div>
+        </article>
       </div>
     </>
   );
