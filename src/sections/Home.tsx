@@ -22,29 +22,31 @@ export const Home = () => {
       </div>
       <div className="flex flex-col justify-center items-center bg-black mt-[-1px]">
         <TravelInfo />
-        <div className="flex items-center mt-6 gap-x-2 relative">
-          <div className="absolute left-[46px] top-7">
+        <div className="flex items-center mt-6 gap-x-2">
+          <div className="flex justify-end items-center relative">
+            <div className="absolute">
+              <figure>
+                <img
+                  // width={15}
+                  // height={21}
+                  src="/images/home/ubicaciones/ubicacion.png"
+                  srcSet="/images/home/ubicaciones/ubicacion.png 480w, /images/home/ubicaciones/ubicacion2.png 768w, /images/home/ubicaciones/ubicacion3.png 1280w"
+                  sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1280px"
+                  alt="Wonder Travel Orinoquia"
+                ></img>
+              </figure>
+            </div>
             <figure>
               <img
-                // width={15}
-                // height={21}
-                src="/images/home/ubicaciones/ubicacion.png"
-                srcSet="/images/home/ubicaciones/ubicacion.png 480w, /images/home/ubicaciones/ubicacion2.png 768w, /images/home/ubicaciones/ubicacion3.png 1280w"
+                // width={89}
+                // height={114}
+                src="/images/home/mapas/mapa.png"
+                srcSet="/images/home/mapas/mapa.png 480w, /images/home/mapas/mapa2.png 768w, /images/home/mapas/mapa3.png 1280w"
                 sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1280px"
                 alt="Wonder Travel Orinoquia"
               ></img>
             </figure>
           </div>
-          <figure>
-            <img
-              // width={89}
-              // height={114}
-              src="/images/home/mapas/mapa.png"
-              srcSet="/images/home/mapas/mapa.png 480w, /images/home/mapas/mapa2.png 768w, /images/home/mapas/mapa3.png 1280w"
-              sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1280px"
-              alt="Wonder Travel Orinoquia"
-            ></img>
-          </figure>
           <article>
             <h4>Orinoquía (Guainía, Colombia)</h4>
           </article>
