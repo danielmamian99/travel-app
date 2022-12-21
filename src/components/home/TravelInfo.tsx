@@ -18,8 +18,8 @@ export const TravelInfo = () => {
             // width={18}
             // height={18}
             src="/images/generals/logos/logo.png"
-            srcSet="/images/generals/logos/logo.png 300w, /images/generals/logos/logo2.png 768w, /images/generals/logos/logo3.png 1280w"
-            sizes="(max-width: 380px) 380px, (max-width: 768px) 768px, 1280px"
+            srcSet="/images/generals/logos/logo.png 480w, /images/generals/logos/logo2.png 768w, /images/generals/logos/logo3.png 1280w"
+            sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1280px"
             alt="Wonder Travel"
           ></img>
         </figure>

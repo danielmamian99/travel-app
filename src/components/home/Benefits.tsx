@@ -8,8 +8,8 @@ export const Benefits = () => {
               // width={13}
               // height={13}
               src="/images/home/brujulas/brujula.png"
-              srcSet="/images/home/brujulas/brujula.png 300w, /images/home/brujulas/brujula2.png 768w, /images/home/brujulas/brujula3.png 1280w"
-              sizes="(max-width: 380px) 380px, (max-width: 768px) 768px, 1280px"
+              srcSet="/images/home/brujulas/brujula.png 480w, /images/home/brujulas/brujula2.png 768w, /images/home/brujulas/brujula3.png 1280w"
+              sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1280px"
               alt="Wonder Travel Experiencias"
             ></img>
           </figure>
@@ -23,8 +23,8 @@ export const Benefits = () => {
               // width={13}
               // height={13}
               src="/images/home/alojamientos/alojamiento.png"
-              srcSet="/images/home/alojamientos/alojamiento.png 300w, /images/home/alojamientos/alojamiento2.png 768w, /images/home/alojamientos/alojamiento3.png 1280w"
-              sizes="(max-width: 380px) 380px, (max-width: 768px) 768px, 1280px"
+              srcSet="/images/home/alojamientos/alojamiento.png 480w, /images/home/alojamientos/alojamiento2.png 768w, /images/home/alojamientos/alojamiento3.png 1280w"
+              sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1280px"
               alt="Wonder Travel comidas"
             ></img>
           </figure>
@@ -40,8 +40,8 @@ export const Benefits = () => {
               // width={18}
               // height={12}
               src="/images/home/comidas/comida.png"
-              srcSet="/images/home/comidas/comida.png 300w, /images/home/comidas/comida2.png 768w, /images/home/comidas/comida3.png 1280w"
-              sizes="(max-width: 380px) 380px, (max-width: 768px) 768px, 1280px"
+              srcSet="/images/home/comidas/comida.png 480w, /images/home/comidas/comida2.png 768w, /images/home/comidas/comida3.png 1280w"
+              sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1280px"
               alt="Wonder Travel comidas"
             ></img>
           </figure>
@@ -55,8 +55,8 @@ export const Benefits = () => {
               // width={16}
               // height={15}
               src="/images/home/transportes/transporte.png"
-              srcSet="/images/home/transportes/transporte.png 300w, /images/home/transportes/transporte2.png 768w, /images/home/transportes/transporte3.png 1280w"
-              sizes="(max-width: 380px) 380px, (max-width: 768px) 768px, 1280px"
+              srcSet="/images/home/transportes/transporte.png 480w, /images/home/transportes/transporte2.png 768w, /images/home/transportes/transporte3.png 1280w"
+              sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1280px"
               alt="Wonder Travel comidas"
             ></img>
           </figure>
