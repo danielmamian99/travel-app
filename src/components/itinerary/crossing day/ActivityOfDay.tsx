@@ -11,8 +11,8 @@ export const ActivityOfDay = ({
   return (
     <>
       <section className="grid grid-cols-[8rem_2rem_8rem] items-center justify-items-center gap-x-2 pt-0.5">
-        <div>{type === "start" && "Inicio"}</div>
-        <div className="flex justify-center items-center relative h-full">
+        <p className="text-[16px]">{type === "start" && "Inicio"}</p>
+        <div className="flex justify-center items-center relative">
           {icon ? (
             <Circle
               backgroundColor="#FF805A"
@@ -27,7 +27,7 @@ export const ActivityOfDay = ({
         <div className="flex w-full flex-col items-start pl-2">
           {labels.map((label, index) => (
             <article className="grid justify-center align-middle" key={index}>
-              <p className="text-sm">{label}</p>
+              <p>{label}</p>
               {labels.length > 1 && <br />}
             </article>
           ))}
