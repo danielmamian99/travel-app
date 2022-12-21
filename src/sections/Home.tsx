@@ -10,12 +10,12 @@ export const Home = () => {
           <figure className="flex justify-center">
             <img
               src="/images/home/titulos/titulo.png"
-              srcSet="/images/home/titulos/titulo.png 380w, /images/home/titulos/titulo2.png 768w, /images/home/titulos/titulo3.png 1280w"
-              sizes="(max-width: 380px) 380px, (max-width: 768px) 768px, 1280px"
+              srcSet="/images/home/titulos/titulo.png 480w, /images/home/titulos/titulo2.png 768w, /images/home/titulos/titulo3.png 1280w"
+              sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1280px"
               alt="Wonder Travel Orinoquia"
             ></img>
           </figure>
-          <article className="flex justify-center items-end text-[#FDFCF7] text-[38px] text-center pl-[46px] pr-[29px]">
+          <article className="flex justify-center items-end text-[#FDFCF7] text-[38px] text-center px-5">
             <h2 className="font-abril">Guainía y Cerros de Mavicure</h2>
           </article>
         </div>
@@ -29,8 +29,8 @@ export const Home = () => {
                 // width={15}
                 // height={21}
                 src="/images/home/ubicaciones/ubicacion.png"
-                srcSet="/images/home/ubicaciones/ubicacion.png 300w, /images/home/ubicaciones/ubicacion2.png 768w, /images/home/ubicaciones/ubicacion3.png 1280w"
-                sizes="(max-width: 380px) 380px, (max-width: 768px) 768px, 1280px"
+                srcSet="/images/home/ubicaciones/ubicacion.png 480w, /images/home/ubicaciones/ubicacion2.png 768w, /images/home/ubicaciones/ubicacion3.png 1280w"
+                sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1280px"
                 alt="Wonder Travel Orinoquia"
               ></img>
             </figure>
@@ -40,8 +40,8 @@ export const Home = () => {
               // width={89}
               // height={114}
               src="/images/home/mapas/mapa.png"
-              srcSet="/images/home/mapas/mapa.png 300w, /images/home/mapas/mapa2.png 768w, /images/home/mapas/mapa3.png 1280w"
-              sizes="(max-width: 380px) 380px, (max-width: 768px) 768px, 1280px"
+              srcSet="/images/home/mapas/mapa.png 480w, /images/home/mapas/mapa2.png 768w, /images/home/mapas/mapa3.png 1280w"
+              sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1280px"
               alt="Wonder Travel Orinoquia"
             ></img>
           </figure>
@@ -75,8 +75,8 @@ export const Home = () => {
             // width={36}
             // height={27}
             src="/images/home/flechas/flecha.png"
-            srcSet="/images/home/flechas/flecha.png 300w, /images/home/flechas/flecha2.png 768w, /images/home/flechas/flecha3.png 1280w"
-            sizes="(max-width: 380px) 380px, (max-width: 768px) 768px, 1280px"
+            srcSet="/images/home/flechas/flecha.png 480w, /images/home/flechas/flecha2.png 768w, /images/home/flechas/flecha3.png 1280w"
+            sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1280px"
             alt="Que es Wonder Travel"
           ></img>
         </figure>

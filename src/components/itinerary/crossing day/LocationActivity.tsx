@@ -10,9 +10,9 @@ export const LocationActivity = ({
   return (
     <section className="flex rounded-lg shadow-[0px_0px_10px_1px_rgba(0,0,0,0.1)] bg-[#FDFCF7] z-20 px-4 py-1">
       <section className="grid grid-cols-[8rem_2rem_8rem] items-center justify-items-center gap-x-2 pt-0.5">
-        <article className="flex flex-col">
+        <article className="flex flex-col py-2">
           <p className="text-[16px] font-bold">{name}</p>
-          <br />
+          {subtitle && <br />}
           <p>{subtitle}</p>
         </article>
         <div className="flex justify-center items-center relative">
@@ -26,11 +26,11 @@ export const LocationActivity = ({
             <Circle backgroundColor="#FF805A" />
           )}
         </div>
-        <div className="flex w-full flex-col items-start pl-2">
+        <div className="flex w-full flex-col items-center pl-2 py-2">
           {labels.map((label, index) => (
             <article className="grid justify-center align-middle" key={index}>
               <p>{label}</p>
-              {labels.length > 1 && <br />}
+              {  labels.length > 1 && labels.length-1 > index  && <br />}
             </article>
           ))}
         </div>

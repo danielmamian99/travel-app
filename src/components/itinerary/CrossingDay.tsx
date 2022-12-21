@@ -8,7 +8,7 @@ export const CrossingDay = ({ day, activitys }: Itinerary) => {
         <div className="border-[#FF6549] border-t w-1/4 text-[#FF6549] flex justify-end">{`Day ${day}`}</div>
       </div>
       {activitys.map((activity, index) => (
-        <div key={index} className="flex flex-col items-center leading-3">
+        <div key={index} className="flex flex-col items-center leading-[18px]">
           {activity.type === "location" ? (
             <LocationActivity {...activity} />
           ) : (
