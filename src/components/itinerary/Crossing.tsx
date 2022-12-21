@@ -15,6 +15,8 @@ export const Crossing = () => {
           </article>
           <figure className="grid place-items-center">            
             <img
+            width={12}
+            height={12}
               src="/images/generals/logos/logo.png"
               srcSet="/images/generals/logos/logo.png 480w, /images/generals/logos/logo2.png 768w, /images/generals/logos/logo3.png 1280w"
               sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1280px"
