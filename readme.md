@@ -3,25 +3,27 @@
 Esta app esta hecha para dar información sobre planes de viajes.
 El diseño esa pensando para mobile, sin embargo es responsive.
 
-#### Link: https://wondertravelapp.netlify.app/
+#### Link: https://jeferson-daniel-mamian-wt.netlify.app/
 
 ### Esta creada con:
 
--Module Bundler: VITE
+- Module Bundler: VITE
 
--Superset javascript: Typescript
+- Superset javascript: Typescript
 
--Framework Javascript: ReactJs
+- Framework Javascript: ReactJs
 
--Preprocesador Css: PostCss
+- Preprocesador Css: PostCss
 
--Framework Css: TailwindCss
+- Framework Css: TailwindCss
 
--Framework Testing: Vitest
+- Framework Testing: Vitest
 
--Libreria de testing: react-testing-library
+- Libreria de testing: react-testing-library
 
--Package Manager: Yarn
+- Package Manager: Yarn
+
+- Deploy: netlify
 
 ### Como ejecutar la app
 ```
